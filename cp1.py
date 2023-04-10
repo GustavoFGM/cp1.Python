@@ -81,8 +81,16 @@ if idade >= 18:
     print("o valor final da sua compra sera de R$%d"% carrinho)
     print("seu(s) produto(s) serao entregues no(a) "+ endereço_de_entrega)
 
+    a = int(input("Para finalizar a compra digite 1: "))
+    
+    if a == 1:
+        print("obrigado pela compra")
+        
+    else:
+        print("Compra cancelada")
+        
 
-    print("obrigado pela compra")
+   
             
 
 
